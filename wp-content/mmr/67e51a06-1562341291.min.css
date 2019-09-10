@@ -7324,3 +7324,14 @@ footer .left {
 footer .right {
     width: 50%;
 }
+
+.social-links {
+    padding: 80px 30px;
+    width: 100vw;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.social-links .social-block {
+    display: flex;
+    justify-content: space-between;
+}
