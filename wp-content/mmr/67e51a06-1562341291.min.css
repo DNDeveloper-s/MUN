@@ -7307,3 +7307,20 @@ body:not(.edge):not(.ie) .is-enter .icon-service__bottom {
 .close-up:hover {
     color: rgba(0,0,0,0.8);
 }
+
+footer {
+    padding: 120px 0;
+    display: flex;
+    width: 100vw;
+    max-width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+footer .left {
+    padding: 30px;
+}
+
+footer .right {
+    width: 50%;
+}
