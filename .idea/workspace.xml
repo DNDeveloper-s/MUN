@@ -4,6 +4,7 @@
     <list default="true" id="68ab0909-13b1-483e-991d-80a1d136ab48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/mmr/67e51a06-1562341291.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/mmr/67e51a06-1562341291.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,8 @@
       <workItem from="1568024864431" duration="3022000" />
       <workItem from="1568035544737" duration="134000" />
       <workItem from="1568086726897" duration="4761000" />
-      <workItem from="1568093521753" duration="764000" />
+      <workItem from="1568093521753" duration="809000" />
+      <workItem from="1568178052012" duration="2684000" />
     </task>
     <servers />
   </component>
@@ -77,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

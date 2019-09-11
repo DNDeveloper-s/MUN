@@ -2595,6 +2595,14 @@ h2, .h2 {
     letter-spacing: 4px
 }
 
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 41px;
+    }
+}
+
+
 h3, .h3 {
     font-size: 25px;
     line-height: 1.2;
@@ -3983,7 +3991,8 @@ body:not(.edge):not(.ie) .icon-curve-orig {
         z-index: 11;
         left: 0;
         top: 0;
-        right: 0
+        right: 0;
+        width: 100vw;
     }
 }
 
@@ -4580,7 +4589,7 @@ body.ie {
 }
 
 .container--cms {
-    max-width: 970px
+    max-width: 1366px
 }
 
 .container--cms-sm {
@@ -5269,7 +5278,7 @@ div.wpcf7 .ajax-loader {
 
 @media screen and (max-width: 600px) and (min-height: 650px) {
     .animation-hero__icon {
-        margin-top: 25vh
+        margin-top: 10vh
     }
 }
 
@@ -5296,7 +5305,7 @@ div.wpcf7 .ajax-loader {
 
 @media (max-width: 599px) {
     .animation-hero__text {
-        margin-top: -59px;
+        margin-top: 47px;
         padding-top: 0
     }
 }
@@ -5339,11 +5348,14 @@ div.wpcf7 .ajax-loader {
 
 @media (max-width: 767px) {
     .animation-hero__ttl {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 2px;
         max-width: 290px;
-        margin-left: auto;
+        margin: 0 auto;
         transition-delay: 0.27s;
         -ms-transform: translateY(70vh) scaleY(1.75);
-        transform: translateY(70vh) scaleY(1.75)
+        transform: translateY(70vh) scaleY(1.75);
     }
 }
 
@@ -6739,7 +6751,7 @@ body:not(.edge):not(.ie) .is-enter .icon-service__bottom {
 
 @media (max-width: 599px) {
     .works {
-        margin-bottom: 5vh
+        margin: 5vh 0;
     }
 }
 
@@ -6812,7 +6824,7 @@ body:not(.edge):not(.ie) .is-enter .icon-service__bottom {
 }
 
 .works__ttl {
-    margin-bottom: 13px
+    margin-bottom: -16px
 }
 
 @media (min-width: 768px) {
