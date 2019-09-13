@@ -125,6 +125,7 @@
     <link href="xmlrpc0db0.html?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
     <link href="wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
     <link href='index.html' rel='shortlink'/>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link href="wp-json/oembed/1.0/embed4926.json?url=https%3A%2F%2Fkevanyc.com%2F" rel="alternate"
           type="application/json+oembed"/>
     <link href="wp-json/oembed/1.0/embed871c?url=https%3A%2F%2Fkevanyc.com%2F&amp;format=xml" rel="alternate"
@@ -137,7 +138,7 @@
     <meta content="#151515" name="msapplication-TileColor">
     <meta content="#151515" name="theme-color">
 </head>
-<body class="is-loaded main-animation-start">
+<body class="is-loaded main-animation-start" style="background-image: url('./images/grad.png')">
 
 <div class="loader is-load-end" style="display: none;">
     <div class="loader__line js-progress"></div>
@@ -214,14 +215,15 @@
     <div class="header__container container--md">
         <div class="header__left">
             <a aria-label="Go to home page" class="header__logo" href="index.html">
-                <img alt="" class="header__logo-img" height="60" src="wp-content/uploads/2019/05/logo.png" width="137">
+                <img alt="" class="header__logo-img logo" src="wp-content/uploads/2019/05/logo.png" >
             </a>
-            <button aria-label="Open navigation" class="btn-transparency header__btn js-mobile-menu-opener">
-                <span class="header__btn-line"></span>
-            </button>
         </div>
 
         <div class="header__nav-wrap">
+            <h2 class="mainone">IMS Model United Nations Conference 2019</h2>
+            <button aria-label="Open navigation" class="new btn-transparency header__btn js-mobile-menu-opener">
+                <span class="header__btn-line"></span>
+            </button>
             <div class="header__nav-inner">
                 <div class="header__nav">
                     <div class="header__nav-container container--cms">
@@ -235,27 +237,50 @@
                         </div>
                         <nav class="menu-main-nav-container">
                             <ul class="header__nav-list" id="menu-main-nav">
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-114"
-                                    id="menu-item-113">
-                                    <a aria-current="page" href="">Registration</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-114"
-                                    id="menu-item-114">
-                                    <a aria-current="page" href="">Downloads</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-115"
-                                    id="menu-item-115">
-                                    <a aria-current="page" href="index.html#our-work">Communities</a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-116"
+                                <li style="position: relative;" class="downloads menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-116"
                                     id="menu-item-116">
-                                    <a aria-current="page" href="index.html#about-us">About Us</a></li>
+                                    <p>About Us</p><i style="margin-left: 10px;" class="fa fa-angle-down"></i>
+                                    <ul class="dropDown" style="list-style: none; max-width: 300px">
+                                        <li><a href="about.html">About IMSMUNC</a></li>
+                                        <li><a href="./our%20team.html">Our Team</a></li>
+                                        <li><a href="advisory.html">Advisory Board</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-115" style="margin-bottom: 40px"
+                                    id="menu-item-115">
+                                    <a aria-current="page" href="index.html#our-work">Committees</a></li>
+                                <li style="position: relative" class="downloads menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-114"
+                                    id="menu-item-114">
+                                    <p>Resources</p><i style="margin-left: 10px;" class="fa fa-angle-down"></i>
+                                    <ul class="dropDown" style="list-style: none">
+                                        <li><a href="https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/1Sj9J5nrnQiFipFPNOIDdlC42DZ9WL-J02a94AtYoJSQ/edit?usp%3Dsharing&sa=D&ust=1568282788189000&usg=AFQjCNH1qIyU6qzgO4TvzDfJBGM-R7Gg0w" target="_blank">Matrix</a></li>
+                                        <li><a href="">Background Guide - UNGA</a></li>
+                                        <li><a href="">Background Guide - UNSC</a></li>
+                                        <li><a href="">Background Guide - UNHRC</a></li>
+                                        <li><a href="">Background Guide - AIPPM</a></li>
+                                        <li><a href="">Background Guide - Supreme Court of India</a></li>
+                                        <li><a href="">Background Guide - Marvel vs DC</a></li>
+                                        <li><a href="">Background Guide - International Press</a></li>
+                                        <li><a href="">MUN Guidelines</a></li>
+                                    </ul>
+                                </li>
+                                <li style="position: relative" class="downloads menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-114"
+                                    id="menu-item-113">
+                                    <p>Registration</p><i style="margin-left: 10px;" class="fa fa-angle-down"></i>
+                                    <ul class="dropDown" style="list-style: none">
+                                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe9m0Dwl5p_d6BCYqtlaPqSZNHoUXDCfwISsorUmYK-10BUuw/formResponse" target="_blank">Individual Delegate Application</a></li>
+                                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfrrU4rfkCsp1w_kBYktEIC3RRtrsislW1As_v4BEMzf4GzYg/viewform" target="_blank">Schools/College Delegation Application</a></li>
+                                        <li><a href="https://forms.gle/QJ1nZWSBAEJvJ6Vw7" target="_blank">Campus Ambassador Application</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </nav>
                     </div>
                 </div>
-
                 <div class="header-contacts">
-                    <p><span class="header-contacts__txt"><a href="mailto:director@imsuc.ac.in">director@imsuc.ac.in</a></span>
+                    <p><span class="header-contacts__txt"><i style="margin-right: 10px; font-size: 24px;" class="fa fa-envelope" aria-hidden="true"></i><a class="num" href="mailto:director@imsuc.ac.in">imsucmun@gmail.com</a></span>
                     </p>
-                    <p><a class="header-contacts__txt" href="tel:977 369 5492">977 369 5492</a></p>
+                    <p><span class="telNum"><i style="margin-right: 10px; font-size: 24px;" class="fa fa-phone-square" aria-hidden="true"></i><a class="header-contacts__txt num" href="tel:977 369 5492">977 369 5492</a></span></p>
                 </div>
 
 <!--                <div class="contact-form-trigger">-->
@@ -267,6 +292,7 @@
         </div>
     </div>
 </header>
+
 <main class="main">
     <section class="promo">
         <div class="container">
@@ -293,9 +319,10 @@
 
                     <!-- Circles -->
                     <div class="hero-02-holder visible-md visible-lg">
-                        <i class="hero-02__circle-1 munc fs">September</i>
-                        <i class="hero-02__circle-2 munc fs">25<sup>th</sup></i>
-                        <i class="hero-02__circle-3 munc fs">2019</i>
+                        <i class="hero-02__circle-1 munc fs">15<sup>th</sup></i>
+                        <i class="hero-02__circle-2 munc fs">16<sup>th</sup></i>
+                        <i class="hero-02__circle-3 munc fs">October</i>
+                        <i class="hero-02__circle-4 munc fs">2019</i>
                     </div>
 
                     <!-- Vertical Curves -->
@@ -372,8 +399,7 @@
 
             <div class="services__container">
                 <div class="services__content">
-                    <p class="services__txt sm-show-fade">We strategize and execute the best design solutions to help
-                        your brand achieve its goals.</p>
+                    <p class="services__txt sm-show-fade"></p>
                     <svg class="icon icon-service" style="enable-background:new -198 219 215 355;" version="1.1"
                          viewBox="-198 219 215 355" x="0px" xml:space="preserve"
                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -387,180 +413,44 @@
 
                 <div class="service-items">
                     <div class="service-item">
-                        <li><span
-                                style="">Providing students with insights into the functioning of the United Nations.</span>
-                        </li>
+                        <ul style="list-style: disc; font-size: 24px;">
+                            <li><span
+                                    style="">Providing students with insights into the functioning of the United Nations.</span>
+                            </li>
+                        </ul>
                     </div>
                     <div class="service-item">
-                        <li><span style="">Providing students an opportunity to understand the dynamics of international relations by assuming the roles of UN representatives.</span>
-                        </li>
+                        <ul style="list-style: disc; font-size: 24px;">
+                            <li><span style="">Providing students an opportunity to understand the dynamics of international relations by assuming the roles of UN representatives.</span>
+                            </li>
+                        </ul>
                     </div>
                     <div class="service-item">
-                        <li><span style="">It will help in learning and understanding the relations between countries and particularly power relations between rich and poor countries.</span>
-                        </li>
+                        <ul style="list-style: disc; font-size: 24px;">
+                            <li><span style="">It will help in learning and understanding the relations between countries and particularly power relations between rich and poor countries.</span>
+                            </li>
+                        </ul>
                     </div>
                     <div class="service-item">
-                        <li><span style="">It will help in carrying out in-depth research about historical, geo-political and economic issues that are faced by different <nations
-                                class=""></nations></span></li>
+                        <ul style="list-style: disc; font-size: 24px;">
+                            <li><span style="">It will help in carrying out in-depth research about historical, geo-political and economic issues that are faced by different <nations
+                                    class=""></nations></span></li>
+                        </ul>
                     </div>
                     <div class="service-item">
-                        <li><span style="">Debating the issues that confront world leaders and draft resolution in response to these issues.</span>
-                        </li>
+                        <ul style="list-style: disc; font-size: 24px;">
+                            <li><span style="">Debating the issues that confront world leaders and draft resolution in response to these issues.</span>
+                            </li>
+                        </ul>
                     </div>
                     <div class="service-item">
-                        <li><span style="">Developing the important skills of team work, group cooperation, conflict resolution, negotiation, critical thinking, public speaking and active listening.</span>
-                        </li>
+                        <ul style="list-style: disc; font-size: 24px;">
+                            <li><span style="">Developing the important skills of team work, group cooperation, conflict resolution, negotiation, critical thinking, public speaking and active listening.</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-    <section class="works" id="our-work">
-        <div class="container--cms">
-            <h2 class="works__ttl">Communities</h2>
-
-            <div class="work-item">
-                <div class="work-item__content">
-                    <div class="work-item__txt-slide js-snap">
-
-                        <h3 class="work-item__ttl" title="Dwellaby">UN General Assembly</h3>
-                        <p class="work-item__txt">Discussing and promoting the cultural rights of the indigenous people in Non Self Governing Territories (NSGT's)</p>
-
-                        <div data-id="UNGeneralAssembly" class="work-item__btns btnsPop">
-                            <div class="work-item__btn-holder">
-                                <div class="btn-detail-holder">
-                                    <a class="btn-detail">
-                                        <svg class="icon icon-arrow">
-                                            <use xlink:href="#icon-arrow"></use>
-                                        </svg>
-                                        <span class="btn-detail__txt">Details</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <button class="link-primary js-popup-cf-opener" data-form="contact-form" type="button">Work
-                                With Us
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="work-item__image-xs">
-                        <div class="work-item__img-slide work-item__img">
-                            <img alt="" src="wp-content/uploads/2019/05/new one/1.png" title="Dwellaby">
-                        </div>
-                    </div>
-
-                    <div class="work-item__txt-slide js-snap">
-
-                        <h3 class="work-item__ttl" title="Expressway">UN Human Rights Council</h3>
-                        <p class="work-item__txt">Protecting cultural property in the event of armed conflict</p>
-
-                        <div data-id="UNHumanRights" class="work-item__btns btnsPop">
-                            <div class="work-item__btn-holder">
-                                <div class="btn-detail-holder">
-                                    <a class="btn-detail">
-                                        <svg class="icon icon-arrow">
-                                            <use xlink:href="#icon-arrow"></use>
-                                        </svg>
-                                        <span class="btn-detail__txt">Details</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <button class="link-primary js-popup-cf-opener" data-form="contact-form" type="button">Work
-                                With Us
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="work-item__image-xs">
-                        <div class="work-item__img-slide work-item__img">
-                            <img alt="" src="wp-content/uploads/2019/05/new one/2.png" title="Dwellaby">
-                        </div>
-                    </div>
-
-                    <div class="work-item__txt-slide js-snap">
-
-                        <h3 class="work-item__ttl" title="Thirty-Nine Degrees">UN Security Council</h3>
-                        <p class="work-item__txt">Discussing the situation in Syrian Arab Republic</p>
-
-                        <div data-id="UNSecurityCouncil" class="work-item__btns btnsPop">
-                            <div class="work-item__btn-holder">
-                                <div class="btn-detail-holder">
-                                    <a class="btn-detail">
-                                        <svg class="icon icon-arrow">
-                                            <use xlink:href="#icon-arrow"></use>
-                                        </svg>
-                                        <span class="btn-detail__txt">Details</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <button class="link-primary js-popup-cf-opener" data-form="contact-form" type="button">Work
-                                With Us
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="work-item__image-xs">
-                        <div class="work-item__img-slide work-item__img">
-                            <img alt="" src="wp-content/uploads/2019/05/new one/3.png" title="Dwellaby">
-                        </div>
-                    </div>
-
-                    <div class="work-item__txt-slide js-snap">
-
-                        <h3 class="work-item__ttl" title="BPJCC">AIPPM</h3>
-                        <p class="work-item__txt"> Growing communalism in India with special emphasis on Ayodhya Issue.</p>
-
-                        <div data-id="AIPPM" class="work-item__btns btnsPop">
-                            <div class="work-item__btn-holder">
-                                <div class="btn-detail-holder">
-                                    <a class="btn-detail">
-                                        <svg class="icon icon-arrow">
-                                            <use xlink:href="#icon-arrow"></use>
-                                        </svg>
-                                        <span class="btn-detail__txt">Details</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <button class="link-primary js-popup-cf-opener" data-form="contact-form" type="button">Work
-                                With Us
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="work-item__image-xs">
-                        <div class="work-item__img-slide work-item__img">
-                            <img alt="" src="wp-content/uploads/2019/05/new one/4.png" title="Dwellaby">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="work-item__imgs">
-                    <div id="pin-container-img">
-                        <div id="slide-container-img">
-                            <div class="work-item__img-slide work-item__img"
-                                 style="background: rgba(21,21,21,1);background-size: 64%;background-position-y: 50%">
-                                <img alt="" src="wp-content/uploads/2019/05/new one/1.png" title="Dwellaby">
-                            </div>
-                            <div class="work-item__img-slide work-item__img"
-                                 style="background: rgba(21,21,21,1);background-size: 64%;background-position-y: 50%">
-                                <img alt="" src="wp-content/uploads/2019/05/new one/2.png" title="Dwellaby">
-                            </div>
-                            <div class="work-item__img-slide work-item__img"
-                                 style="background: rgba(21,21,21,1);background-size: 64%;background-position-y: 50%">
-                                <img alt="" src="wp-content/uploads/2019/05/new one/3.png" title="Dwellaby">
-                            </div>
-                            <div class="work-item__img-slide work-item__img"
-                                 style="background: rgba(21,21,21,1);background-size: 64%;background-position-y: 50%">
-                                <img alt="" src="wp-content/uploads/2019/05/new one/4.png" title="Dwellaby">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="works__spacer"></div>
         </div>
     </section>
 
@@ -568,156 +458,201 @@
         <p class="close-up">X</p>
         <h3 class="headingPopup"></h3>
         <p class="contentHeading"></p>
-        <h4 class="agendaHeading"></h4>
-        <p class="contentAgenda"></p>
+<!--        <h4 class="agendaHeading"></h4>-->
+<!--        <p class="contentAgenda"></p>-->
     </div>
 
-    <section class="rest">
-        <div class="left">
-            <h3>Supreme Court of India</h3>
-            <p>The Ram Janmabhoomi - Babri Masjid Dispute</p>
-            <div data-id="Supreme" class="work-item__btns btnsPop">
-                <div class="work-item__btn-holder">
-                    <div class="btn-detail-holder">
-                        <a class="btn-detail">
-                            <svg class="icon icon-arrow">
-                                <use xlink:href="#icon-arrow"></use>
-                            </svg>
-                            <span class="btn-detail__txt">Details</span>
-                        </a>
+    <section id="our-work">
+        <h2>Committees</h2>
+        <section class="rest">
+            <div class="left">
+                <h3>UN General Assembly</h3>
+                <p>Discussing and promoting the cultural rights of the indigenous people in Non Self Governing Territories (NSGT's) </p>
+                <div data-id="UNGeneralAssembly" class="work-item__btns btnsPop">
+                    <div class="work-item__btn-holder">
+                        <div class="btn-detail-holder">
+                            <a class="btn-detail">
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg>
+                                <span class="btn-detail__txt">Details</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <button class="link-primary js-popup-cf-opener" data-form="contact-form" type="button">Work
-                    With Us
-                </button>
             </div>
-        </div>
 
-        <div class="right">
-            <img class="emblem" alt="" src="wp-content/uploads/2019/05/new one/7.png" title="Dwellaby">
-        </div>
-    </section>
+            <div class="right">
+                <img class="emblem" alt="" src="wp-content/uploads/2019/05/new one/3.png" title="Dwellaby">
+            </div>
+        </section>
 
-    <section class="rest">
-        <div class="left">
-            <h3>Marvel vs DC</h3>
-            <p>Classified</p>
-            <div data-id="Marvel" class="work-item__btns btnsPop">
-                <div class="work-item__btn-holder">
-                    <div class="btn-detail-holder">
-                        <a class="btn-detail">
-                            <svg class="icon icon-arrow">
-                                <use xlink:href="#icon-arrow"></use>
-                            </svg>
-                            <span class="btn-detail__txt">Details</span>
-                        </a>
+        <section class="rest">
+            <div class="left">
+                <h3>UN Human Rights Council</h3>
+                <p>Protecting cultural property in the event of armed conflict</p>
+                <div data-id="UNHumanRights" class="work-item__btns btnsPop">
+                    <div class="work-item__btn-holder">
+                        <div class="btn-detail-holder">
+                            <a class="btn-detail">
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg>
+                                <span class="btn-detail__txt">Details</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <button class="link-primary js-popup-cf-opener" data-form="contact-form" type="button">Work
-                    With Us
-                </button>
             </div>
-        </div>
 
-        <div class="right">
-            <img class="marvel" alt="" src="wp-content/uploads/2019/05/new one/5.jpg" title="Dwellaby">
-        </div>
-    </section>
+            <div class="right">
+                <img style="width: 450px;" class="emblem" alt="" src="wp-content/uploads/2019/05/new one/2.png" title="Dwellaby">
+            </div>
+        </section>
 
-    <section class="rest">
-        <div class="left">
-            <h3>International Press</h3>
-            <p></p>
-            <div data-id="InternationalPass" class="work-item__btns btnsPop">
-                <div class="work-item__btn-holder">
-                    <div class="btn-detail-holder">
-                        <a class="btn-detail">
-                            <svg class="icon icon-arrow">
-                                <use xlink:href="#icon-arrow"></use>
-                            </svg>
-                            <span class="btn-detail__txt">Details</span>
-                        </a>
+        <section class="rest">
+            <div class="left">
+                <h3>UN Security Council</h3>
+                <p>Discussing the situation in Syrian Arab Republic</p>
+                <div data-id="UNSecurityCouncil" class="work-item__btns btnsPop">
+                    <div class="work-item__btn-holder">
+                        <div class="btn-detail-holder">
+                            <a class="btn-detail">
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg>
+                                <span class="btn-detail__txt">Details</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <button class="link-primary js-popup-cf-opener" data-form="contact-form" type="button">Work
-                    With Us
-                </button>
             </div>
-        </div>
 
-        <div class="right">
-            <img alt="" src="wp-content/uploads/2019/05/new one/6.png" title="Dwellaby">
-        </div>
+            <div class="right">
+                <img class="emblem" alt="" src="wp-content/uploads/2019/05/new one/1.png" title="Dwellaby">
+            </div>
+        </section>
+
+        <section class="rest">
+            <div class="left">
+                <h3>AIPPM</h3>
+                <p>Growing communalism in India with special emphasis on Ayodhya Issue.</p>
+                <div data-id="AIPPM" class="work-item__btns btnsPop">
+                    <div class="work-item__btn-holder">
+                        <div class="btn-detail-holder">
+                            <a class="btn-detail">
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg>
+                                <span class="btn-detail__txt">Details</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <img class="emblem" alt="" src="wp-content/uploads/2019/05/new one/4.png" title="Dwellaby">
+            </div>
+        </section>
+
+        <section class="rest">
+            <div class="left">
+                <h3>Supreme Court of India</h3>
+                <p>The Ram Janmabhoomi - Babri Masjid Dispute</p>
+                <div data-id="Supreme" class="work-item__btns btnsPop">
+                    <div class="work-item__btn-holder">
+                        <div class="btn-detail-holder">
+                            <a class="btn-detail">
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg>
+                                <span class="btn-detail__txt">Details</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <img class="emblem" alt="" src="wp-content/uploads/2019/05/new one/7.png" title="Dwellaby">
+            </div>
+        </section>
+
+        <section class="rest">
+            <div class="left">
+                <h3>Marvel vs DC</h3>
+                <p>Classified</p>
+                <div data-id="Marvel" class="work-item__btns btnsPop">
+                    <div class="work-item__btn-holder">
+                        <div class="btn-detail-holder">
+                            <a class="btn-detail">
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg>
+                                <span class="btn-detail__txt">Details</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <img class="marvel" alt="" src="wp-content/uploads/2019/05/new one/5.jpg" title="Dwellaby">
+            </div>
+        </section>
+
+        <section class="rest">
+            <div class="left">
+                <h3>International Press</h3>
+                <p></p>
+                <div data-id="InternationalPass" class="work-item__btns btnsPop">
+                    <div class="work-item__btn-holder">
+                        <div class="btn-detail-holder">
+                            <a class="btn-detail">
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg>
+                                <span class="btn-detail__txt">Details</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <img class="press" alt="" src="wp-content/uploads/2019/05/new one/6.png" title="Dwellaby">
+            </div>
+        </section>
     </section>
 
 
-    <section class="about" id="about-us">
-        <div class="about__container container--cms js-animation-trigger">
-            <h2 class="about__ttl">
-                <span class="sm-txt-overflow__line">About IMSMUNC</span>
-            </h2>
-            <div class="about__txt js-trigger-icons">
-                Model United Nations is an educational simulation, in which students can learn about diplomacy,
-                international relations and the United Nations. IMSMUNC is a great platform for the students to learn
-                and develop so many skills; along with researching, public speaking, debating as well as writing skills,
-                MUN involves and teaches critical thinking, team work and leadership abilities. It is a platform where
-                students explore themselves. It also enhances the knowledge of the students who are taking part. IMSMUNC
-                is a great exposure for the students of IMSUC campus as well as for the students from different
-                universities.
-            </div>
-        </div>
-
-        <div class="team js-animation-trigger is-popup-closed">
-            <div class="team__heading container--cms">
-                <h3 class="team__ttl sm-txt-overflow">
-                    <span class="sm-txt-overflow__line"></span>
-                </h3>
-                <p class="team__txt sm-show-fade"></p>
-            </div>
-
-            <div class="team__slider js-team-slider">
-            </div>
-            <div class="team__slider-paging"></div>
-        </div>
-    </section>
-
-
-<!--    <section class="info" id="careers">-->
-<!--        <div class="container js-animation-trigger">-->
-<!--            <h2 class="info__ttl sm-txt-overflow">-->
-<!--                <span class="sm-txt-overflow__line">We are always looking for creative people to join our team</span>-->
+<!--    <section class="about" id="about-us">-->
+<!--        <div class="about__container container&#45;&#45;cms js-animation-trigger">-->
+<!--            <h2 class="about__ttl">-->
+<!--                <span class="sm-txt-overflow__line">About IMSMUNC</span>-->
 <!--            </h2>-->
+<!--            <div class="about__txt js-trigger-icons">-->
+<!--                Model United Nations is an educational simulation, in which students can learn about diplomacy,-->
+<!--                international relations and the United Nations. IMSMUNC is a great platform for the students to learn-->
+<!--                and develop so many skills; along with researching, public speaking, debating as well as writing skills,-->
+<!--                MUN involves and teaches critical thinking, team work and leadership abilities. It is a platform where-->
+<!--                students explore themselves. It also enhances the knowledge of the students who are taking part. IMSMUNC-->
+<!--                is a great exposure for the students of IMSUC campus as well as for the students from different-->
+<!--                universities.-->
+<!--            </div>-->
 <!--        </div>-->
 
-<!--        <div class="info__container container&#45;&#45;cms js-animation-trigger">-->
-<!--            <div class="info__icon">-->
-<!--                <svg class="icon icon-decor">-->
-<!--                    <use xlink:href="#icon-decor"></use>-->
-<!--                </svg>-->
-<!--            </div>-->
-
-<!--            <div class="info__content">-->
-<!--                <p class="info__content-txt">We are looking for passionate and fearless people to join us in creating-->
-<!--                    the most amazing work in NYC and beyond. If that sounds like you, get in touch.</p>-->
-<!--                <div class="info__content-link">-->
-<!--                    <a class="link-primary" href="index.html">Work with us</a>-->
-<!--                </div>-->
+<!--        <div class="team js-animation-trigger is-popup-closed">-->
+<!--            <div class="team__heading container&#45;&#45;cms">-->
+<!--                <h3 class="team__ttl sm-txt-overflow">-->
+<!--                    <span class="sm-txt-overflow__line"></span>-->
+<!--                </h3>-->
+<!--                <p class="team__txt sm-show-fade"></p>-->
 <!--            </div>-->
 <!--        </div>-->
 <!--    </section>-->
 
-
-<!--    <section class="cta container&#45;&#45;cms general-cms">-->
-<!--        <div class="general-cms__content js-animation-trigger">-->
-<!--            <p>At Keva, we take the time to understand your brand’s specific needs in order to tailor a solution that’s-->
-<!--                just right for you.</p>-->
-<!--            <p>Whether that solution is a logo, a brand identity, or an advertisement — we are passionate about what we-->
-<!--                do. It’s a level of care that’s reflected in every project we put out.</p>-->
-<!--        </div>-->
-<!--        <div class="text-center cta__btn">-->
-<!--            <button class="link-primary js-popup-cf-opener" data-form="contact-form" type="button">Work With Us</button>-->
-<!--        </div>-->
-<!--    </section>-->
 </main>
 
 <footer>
@@ -736,11 +671,9 @@
 
 <div class="social-links">
     <p class="site-info">Copyright  &copy; 2019 | IMS Ghaziabad University Courses Campus | All Rights Reserved.<br> Designed by <a href="http://www.imsuc.ac.in">EWL Team</a></p>
-    <ul class="social-block">
-        <li><a href="">Twitter</a></li>
-        <li><a href="https://www.facebook.com/Imsmunc/">Facebook</a></li>
-        <li><a href="">Linkedin</a></li>
-        <li><a href="">Google+</a></li>
+    <ul class="social-block" style="list-style: none">
+        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/Imsmunc/"><i class="fa fa-facebook-f"></i></a></li>
     </ul>
 </div>
 

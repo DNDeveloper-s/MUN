@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68ab0909-13b1-483e-991d-80a1d136ab48" name="Default Changelist" comment="">
+    <list default="true" id="68ab0909-13b1-483e-991d-80a1d136ab48" name="Default Changelist" comment="Responsive design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/mmr/67e51a06-1562341291.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/mmr/67e51a06-1562341291.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/mmr/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/mmr/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/05/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/05/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/05/new one/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2019/05/new one/3.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +70,36 @@
       <workItem from="1568035544737" duration="134000" />
       <workItem from="1568086726897" duration="4761000" />
       <workItem from="1568093521753" duration="809000" />
-      <workItem from="1568178052012" duration="2684000" />
+      <workItem from="1568178052012" duration="3593000" />
+      <workItem from="1568184415678" duration="1595000" />
+      <workItem from="1568214336283" duration="9933000" />
+      <workItem from="1568272660191" duration="12075000" />
+      <workItem from="1568295867676" duration="10888000" />
+      <workItem from="1568351595323" duration="4137000" />
     </task>
+    <task id="LOCAL-00001" summary="Responsive design">
+      <created>1568182510856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568182510856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -86,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Responsive design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive design" />
   </component>
 </project>
