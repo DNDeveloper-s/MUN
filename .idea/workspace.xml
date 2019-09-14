@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68ab0909-13b1-483e-991d-80a1d136ab48" name="Default Changelist" comment="Responsive design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/mmr/67e51a06-1562341291.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/mmr/67e51a06-1562341291.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +75,8 @@
       <workItem from="1568364042948" duration="12787000" />
       <workItem from="1568398848055" duration="5759000" />
       <workItem from="1568431926648" duration="4775000" />
-      <workItem from="1568437666204" duration="796000" />
+      <workItem from="1568437666204" duration="1139000" />
+      <workItem from="1568453152495" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="Responsive design">
       <created>1568182510856</created>

@@ -8047,11 +8047,18 @@ footer .right {
     transform: rotateY(20deg);
 }
 
+body,
+.header,
+.header__nav,
+.header__nav-wrap:before {
+    transition: all 0.27s cubic-bezier(.215, .61, .355, 1) 0s;
+}
 
 body.pink,
 .header.pink,
 .header__nav.pink,
 .header__nav-wrap.pink:before {
+    transition: all 0.27s cubic-bezier(.215, .61, .355, 1) 0s;
     background-image: url('grad-1.png');
     background-size: 100vw;
 }
