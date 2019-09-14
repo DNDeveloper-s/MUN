@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Bebas neue';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bebas neue'), url('BebasNeue-Regular.woff') format('woff');
+}
+
 .wp-block-audio figcaption {
     margin-top: .5em;
     margin-bottom: 1em;
@@ -3868,7 +3875,9 @@ body:not(.edge):not(.ie) .icon-curve-orig {
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: #151515;
+        background-image: url('./grad.png');
+        background-size: 100vh;
+        background-position-y: -80px;
         z-index: -1;
         pointer-events: none;
         transition: opacity 0.135s ease-out, transform 0.216s ease-out 0.135s;
@@ -4548,6 +4557,11 @@ body {
     background-attachment: fixed;
     background-size: 100vw;
 }
+@media (max-width: 768px) {
+    body {
+        background-size: calc(100vh + 80px);
+    }
+}
 
 @media (min-width: 1024px) {
     body:before {
@@ -4571,7 +4585,6 @@ body {
     }
 
     body.is-loaded:before {
-        animation-name: page-line-decor;
         animation-duration: 2.97s;
         animation-timing-function: ease-out;
         animation-fill-mode: forwards
@@ -5385,6 +5398,12 @@ div.wpcf7 .ajax-loader {
     transition: all 1.08s cubic-bezier(.215, .61, .355, 1) 1.08s;
     -ms-transform: translateY(0) scaleY(1) !important;
     transform: translateY(0) scaleY(1) !important
+}
+
+@media (max-width: 1366px) {
+    .animation-hero__ttl {
+        font-size: 50px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -7526,7 +7545,7 @@ footer .right {
 }
 
 .wrapper {
-    max-width: 1144px;
+    max-width: 1366px;
     width: 90vw;
     margin: 200px auto;
     text-align: justify;
@@ -7567,6 +7586,17 @@ footer .right {
     align-items: flex-start;
     padding: 0 100px;
     position: relative;
+}
+.wrapper .bottom.photo {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .bottom .btm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .wrapper .bottom .slider {
     display: flex;
@@ -7645,7 +7675,7 @@ footer .right {
 .mainone {
     margin: 0;
     padding: 28px 0;
-    font-family: "Times New Roman";
+    font-family: "Bebas neue";
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -7697,9 +7727,6 @@ footer .right {
     .animation-hero__icon {
         zoom: 0.8;
     }
-    .animation-hero__ttl {
-        font-size: 50px;
-    }
     .hero-02-holder {
         top: 80px;
     }
@@ -7729,3 +7756,152 @@ footer .right {
 .rest .left {
     zoom: 1.3;
 }
+
+.munc.fs {
+    font-style: normal;
+}
+
+.wrapper.awards {
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.wrapper.awards p {
+    font-size: 35px;
+}
+
+.card .image.rot {
+    transform: rotateZ(-90deg);
+}
+.mobileHam {
+    display: none;
+}
+@media (max-width: 1023px) {
+    .mobileHam {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .animation-hero__icon {
+        zoom: 1.2;
+    }
+    .animation-hero__text {
+        margin-top: 62px;
+    }
+}
+
+.owl-wrap {
+    position: relative;
+    width: 0;
+    overflow: hidden;
+    transition: 400ms;
+}
+
+.owl-carousel {
+    width: 850px;
+}
+
+.sliding-container:hover > .owl-wrap {
+    width: 850px;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 45px;
+}
+
+@media (max-width: 768px) {
+    .header__left {
+        zoom: 1;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__left .logo {
+        zoom: 0.1;
+        margin-top: -572px;
+    }
+    .header__logo {
+        width: auto;
+    }
+    .header__nav-wrap.active {
+        height: calc(100vh - 80px);
+    }
+    .header__nav-wrap.active > .mainone {
+        padding: 28px;
+    }
+    .header__nav-wrap.active > button {
+        display: none;
+    }
+    .header-contacts {
+        margin-top: 0;
+    }
+    #our-work {
+        padding-left: 0;
+    }
+    #our-work > h2 {
+        padding-left: 20px;
+    }
+    .rest .right > img {
+        width: 80vw;
+    }
+    .services__ttl {
+        padding-left: 20px;
+    }
+    .service-items {
+        zoom: 0.7;
+        margin-left: 20px;
+    }
+    .pop-up {
+        padding: 40px;
+    }
+    .headingPopup,
+    .contentHeading{
+        zoom: 0.7;
+        text-align: justify;
+    }
+    .close-up {
+        top: 13px;
+        right: 15px;
+        color: #0c63a3;
+        font-size: 19px;
+    }
+    .wrapper .top {
+        flex-direction: column;
+    }
+    .wrapper .top ~ h2 {
+        margin-top: 70px;
+    }
+    .wrapper .bottom {
+        padding: 0;
+    }
+    .owl-carousel {
+        width: 210px;
+    }
+    .caret {
+        width: 50px;
+    }
+    .wrapper {
+        margin-bottom: 10px;
+    }
+    .wrapper.advisory {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .wrapper.advisory .card {
+        zoom: 0.7;
+        margin-top: 30px;
+    }
+    .wrapper.awards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .wrapper.awards p {
+        font-size: 30px;
+}}

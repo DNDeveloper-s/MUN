@@ -5,9 +5,6 @@ let headingPopup = document.querySelector('.headingPopup');
 let contentHeading = document.querySelector('.contentHeading');
 let contentAgenda = document.querySelector('.contentAgenda');
 let agendaHeading = document.querySelector('.agendaHeading');
-let caretNext = document.querySelectorAll('.caret.next');
-let sliding = document.querySelectorAll('.sliding');
-let slidingContainer = document.querySelectorAll('.sliding-container');
 
 let open = function() {
     let heading, content, agenda, agendaHead;
@@ -67,34 +64,3 @@ let closefn = function() {
 btns.forEach(cur => cur.addEventListener('click', open));
 
 close.forEach(cur => cur.addEventListener('click', closefn));
-
-let slider = function() {
-    let count = this.previousElementSibling.firstElementChild.childElementCount;
-    let pos;
-    if(this.previousElementSibling.firstElementChild.classList.contains('more')) {
-        pos = (count - 4) * 220;
-    } else {
-        count >= 8 ? pos = 4 * 220 : pos = (count - 4) * 220;
-    }
-    if(count > 8) {
-        this.previousElementSibling.firstElementChild.classList.add('more');
-    }
-    this.previousElementSibling.firstElementChild.style.transform = `translateX(-${pos}px)`;
-};
-
-caretNext.forEach(cur => {
-    cur.addEventListener('click', slider);
-});
-
-slidingContainer.forEach(cur => {
-    cur.addEventListener('mouseenter', function() {
-        this.children[1].style.width = `880px`;
-        this.children[1].children[0].style.transform = `translateX(0)`;
-    })
-})
-
-slidingContainer.forEach(cur => {
-    cur.addEventListener('mouseleave', function() {
-        this.children[1].style.width = `0`;
-    })
-})
