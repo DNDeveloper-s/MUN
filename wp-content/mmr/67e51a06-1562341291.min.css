@@ -7569,6 +7569,11 @@ footer .right {
     border-radius: 200px;
     overflow: hidden;
 }
+.wrapper .card .image.rect {
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+}
 .wrapper .card .name {
     margin: 10px 0;
 }
@@ -7688,6 +7693,11 @@ footer .right {
     border-radius: 200px;
     overflow: hidden;
 }
+.wrapper.advisory > .image.rect {
+     border-radius: 30px;
+     width: 300px;
+     height: 300px;
+ }
 .wrapper.advisory .name {
     white-space: nowrap;
 }
