@@ -7292,7 +7292,7 @@ body:not(.edge):not(.ie) .is-enter .icon-service__bottom {
 }
 
 .munc.fs {
-    font-size: 34px;
+    font-size: 52px;
 }
 
 .service-item > li {
@@ -8049,9 +8049,11 @@ body.pink,
 @media (max-width: 768px) {
     body.pink,
     .header.pink,
-    .header__nav.pink,
     .header__nav-wrap.pink:before {
         background-size: 150vh;
+    }
+    .header__nav.pink {
+        background: transparent;
     }
 }
 
