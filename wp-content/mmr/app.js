@@ -64,3 +64,19 @@ let closefn = function() {
 btns.forEach(cur => cur.addEventListener('click', open));
 
 close.forEach(cur => cur.addEventListener('click', closefn));
+
+
+let tglBtn = document.querySelector('.tgl-btn');
+let body = document.querySelector('body');
+let header = document.querySelector('.header');
+let headerNav = document.querySelector('.header__nav');
+let headerBefore = document.querySelector('.header__nav-wrap');
+
+function toggle() {
+    body.classList.toggle('pink');
+    header.classList.toggle('pink');
+    headerBefore.classList.toggle('pink');
+    headerNav.classList.toggle('pink');
+}
+
+tglBtn.addEventListener('click', toggle);

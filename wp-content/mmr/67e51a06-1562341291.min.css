@@ -2555,7 +2555,7 @@ html *::selection {
 }
 
 body {
-    background-color: #fff;
+    background-image: url('./grad.png');
     font-family: "Sharp Grotesk DB", Arial, sans-serif;
     color: #fff;
     font-size: 18px;
@@ -4546,7 +4546,6 @@ html:not(.is-popup-cf-open) {
 }
 
 body {
-    background-color: transparent;
     position: relative;
     text-rendering: optimizeLegibility;
     min-height: 100vh;
@@ -7745,6 +7744,11 @@ footer .right {
     .social-links{
         zoom: 0.8;
     }
+    .social-block {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
     .wrapper h2 {
         margin-top: 0;
     }
@@ -7904,4 +7908,152 @@ footer .right {
     }
     .wrapper.awards p {
         font-size: 30px;
-}}
+    }
+}
+
+.tg-list {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.tg-list-item {
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+}
+
+.tgl {
+    display: none;
+}
+.tgl, .tgl:after, .tgl:before, .tgl *, .tgl *:after, .tgl *:before, .tgl + .tgl-btn {
+    box-sizing: border-box;
+}
+.tgl::-moz-selection, .tgl:after::-moz-selection, .tgl:before::-moz-selection, .tgl *::-moz-selection, .tgl *:after::-moz-selection, .tgl *:before::-moz-selection, .tgl + .tgl-btn::-moz-selection {
+    background: none;
+}
+.tgl::selection, .tgl:after::selection, .tgl:before::selection, .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection, .tgl + .tgl-btn::selection {
+    background: none;
+}
+.tgl + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+}
+.tgl + .tgl-btn:after {
+    left: 0;
+}
+.tgl + .tgl-btn:before {
+    display: none;
+}
+.tgl:checked + .tgl-btn:after {
+    left: 50%;
+}
+
+.tgl-flat + .tgl-btn {
+    padding: 2px;
+    transition: all .2s ease;
+    background: #fff;
+    border: 4px solid #f2f2f2;
+    border-radius: 2em;
+}
+.tgl-flat + .tgl-btn:after {
+    transition: all .2s ease;
+    background: #f2f2f2;
+    content: "";
+    border-radius: 1em;
+}
+.tgl-flat:checked + .tgl-btn {
+    border: 4px solid #7FC6A6;
+}
+.tgl-flat:checked + .tgl-btn:after {
+    left: 50%;
+    background: #7FC6A6;
+}
+
+.tgl-flip + .tgl-btn {
+    padding: 2px;
+    transition: all .2s ease;
+    font-family: sans-serif;
+    -webkit-perspective: 100px;
+    perspective: 100px;
+}
+.tgl-flip + .tgl-btn:after, .tgl-flip + .tgl-btn:before {
+    display: inline-block;
+    transition: all .4s ease;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    line-height: 2em;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 4px;
+}
+.tgl-flip + .tgl-btn:after {
+    content: attr(data-tg-on);
+    background: #02C66F;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.tgl-flip + .tgl-btn:before {
+    background: #a26eff;
+    content: attr(data-tg-off);
+}
+.tgl-flip + .tgl-btn:active:before {
+    -webkit-transform: rotateY(-20deg);
+    transform: rotateY(-20deg);
+}
+.tgl-flip:checked + .tgl-btn:before {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.tgl-flip:checked + .tgl-btn:after {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    left: 0;
+    background: #0d64a4;
+}
+.tgl-flip:checked + .tgl-btn:active:after {
+    -webkit-transform: rotateY(20deg);
+    transform: rotateY(20deg);
+}
+
+
+body.pink,
+.header.pink,
+.header__nav.pink,
+.header__nav-wrap.pink:before {
+    background-image: url('grad-1.png');
+    background-size: 100vw;
+}
+
+@media (max-width: 768px) {
+    body.pink,
+    .header.pink,
+    .header__nav.pink,
+    .header__nav-wrap.pink:before {
+        background-size: 150vh;
+    }
+}
+
+#0d64a4 = blue
+#a26eff = pink

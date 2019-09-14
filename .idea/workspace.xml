@@ -3,18 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="68ab0909-13b1-483e-991d-80a1d136ab48" name="Default Changelist" comment="Responsive design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advisory.html" beforeDir="false" afterPath="$PROJECT_DIR$/advisory.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/general.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grad.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/grad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gradient.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our team.html" beforeDir="false" afterPath="$PROJECT_DIR$/our team.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/mmr/67e51a06-1562341291.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/mmr/67e51a06-1562341291.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/mmr/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/mmr/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/mmr/grad.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/mmr/grad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/keva/favicon/favico.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +76,7 @@
       <workItem from="1568351595323" duration="4137000" />
       <workItem from="1568364042948" duration="12787000" />
       <workItem from="1568398848055" duration="5759000" />
-      <workItem from="1568431926648" duration="2563000" />
+      <workItem from="1568431926648" duration="4293000" />
     </task>
     <task id="LOCAL-00001" summary="Responsive design">
       <created>1568182510856</created>
