@@ -7852,7 +7852,7 @@ footer .right {
         display: none;
     }
     .header-contacts {
-        margin-top: 0;
+        margin-top: 55px;
     }
     #our-work {
         padding-left: 0;
@@ -8065,6 +8065,12 @@ body.pink,
     .header__nav.pink {
         background: transparent;
     }
+}
+
+.soon {
+    margin-left: 5px;
+    font-size: 12px;
+    color: red;
 }
 
 #0d64a4 = blue
