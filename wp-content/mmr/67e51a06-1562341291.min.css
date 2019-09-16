@@ -8142,6 +8142,7 @@ body.pink,
     .wrapper {
         padding: 5px;
         width: 100vw;
+        margin-top: 140px;
     }
     .btm > .card:first-child {
         margin-right: 10px;
