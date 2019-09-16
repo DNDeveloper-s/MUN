@@ -119,13 +119,12 @@
             padding: 0 !important;
         }
     </style>
-    <link href='wp-content/mmr/67e51a06-1562341291.min.css' id='css-0-css' media='all' rel='stylesheet'
-          type='text/css'/>
     <link href='wp-json/index.html' rel='https://api.w.org/'/>
     <link href="xmlrpc0db0.html?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
     <link href="wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
     <link href='index.html' rel='shortlink'/>
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/flipclock.css">
     <link href="wp-json/oembed/1.0/embed4926.json?url=https%3A%2F%2Fkevanyc.com%2F" rel="alternate"
           type="application/json+oembed"/>
     <link href="wp-json/oembed/1.0/embed871c?url=https%3A%2F%2Fkevanyc.com%2F&amp;format=xml" rel="alternate"
@@ -133,12 +132,14 @@
     <!--    <link href="wp-content/themes/keva/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">-->
     <link href="wp-content/themes/keva/favicon/favico.png" rel="icon" sizes="32x32" type="image/png">
     <link href="wp-content/themes/keva/favicon/favico.png" rel="icon" sizes="16x16" type="image/png">
+    <link href='wp-content/mmr/67e51a06-1562341291.min.css' id='css-0-css' media='all' rel='stylesheet'
+          type='text/css'/>
     <!--    <link crossorigin="use-credentials" href="wp-content/themes/keva/favicon/site.html" rel="manifest">-->
     <!--    <link color="#151515" href="wp-content/themes/keva/favicon/safari-pinned-tab.svg" rel="mask-icon">-->
     <meta content="#151515" name="msapplication-TileColor">
     <meta content="#151515" name="theme-color">
 </head>
-<body class="is-loaded main-animation-start">
+<body class="is-loaded main-animation-start pink">
 
 <div class="loader is-load-end" style="display: none;">
     <div class="loader__line js-progress"></div>
@@ -211,7 +212,8 @@
         <path d="M-246 322v148.5L-127.2 322H-246z"/>
     </symbol>
 </svg>
-<header class="header">
+
+<header class="header pink">
     <div class="header__container container--md">
         <div class="header__left">
             <a aria-label="Go to home page" class="header__logo" href="index.html">
@@ -222,13 +224,13 @@
             </button>
         </div>
 
-        <div class="header__nav-wrap">
-            <h2 class="mainone">IMS Model United Nations Conference 2019</h2>
+        <div class="header__nav-wrap pink">
+            <h2 class="mainone">IMS Model United Nations Conference 2019<span class="your-clock countdown"></span></h2>
             <button aria-label="Open navigation" class="new btn-transparency header__btn js-mobile-menu-opener">
                 <span class="header__btn-line"></span>
             </button>
             <div class="header__nav-inner">
-                <div class="header__nav">
+                <div class="header__nav pink">
                     <div class="header__nav-container container--cms">
                         <div class="header__nav-decor hidden-xs hidden-sm">
                             <svg class="icon icon-triangle triangle-top">
@@ -315,7 +317,7 @@
 
 <li class="tg-list-item">
     <input class="tgl tgl-flip" id="cb5" type="checkbox"/>
-    <label class="tgl-btn" data-tg-off="Grad..!" data-tg-on="Blue!" for="cb5"></label>
+    <label class="tgl-btn" data-tg-on="Culture!" data-tg-off="Blue!" for="cb5"></label>
 </li>
 
 
@@ -341,6 +343,19 @@
 </script>
 <script src='wp-content/mmr/395a55e5-1562260899.min.js' type='text/javascript'></script>
 <script src='wp-content/mmr/app.js' type='text/javascript'></script>
+<script src='wp-content/mmr/flipclock.min.js' type='text/javascript'></script>
+<script>
+    const date1 = new Date();
+    const date2 = new Date('2019-10-15');
+    const diffTime = date2 - date1;
+    const diffSecs = (diffTime / (1000 * 60 * 60 * 24)) * 24 * 3600;
+    $('.your-clock').FlipClock(diffSecs, {
+        clockFace: 'DailyCounter',
+        countdown: true
+    });
+
+
+</script>
 </body>
 
 <!-- Mirrored from kevanyc.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Sep 2019 10:42:39 GMT -->
