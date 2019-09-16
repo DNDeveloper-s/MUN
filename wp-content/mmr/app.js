@@ -5,6 +5,7 @@ let headingPopup = document.querySelector('.headingPopup');
 let contentHeading = document.querySelector('.contentHeading');
 let contentAgenda = document.querySelector('.contentAgenda');
 let agendaHeading = document.querySelector('.agendaHeading');
+let downloads = document.querySelector('.downloads');
 
 let open = function() {
     let heading, content, agenda, agendaHead;
@@ -80,3 +81,7 @@ function toggle() {
 }
 
 tglBtn.addEventListener('click', toggle);
+
+downloads.addEventListener('click', function () {
+    console.log(this);
+});

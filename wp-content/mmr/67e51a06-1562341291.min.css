@@ -3876,8 +3876,9 @@ body:not(.edge):not(.ie) .icon-curve-orig {
         bottom: 0;
         left: 0;
         background-image: url('./grad.png');
-        background-size: 100vh;
-        background-position-y: -80px;
+        background-size: 110vh;
+        background-position-y: 0;
+        background-attachment: fixed;
         z-index: -1;
         pointer-events: none;
         transition: opacity 0.135s ease-out, transform 0.216s ease-out 0.135s;
@@ -7467,9 +7468,6 @@ footer .right {
 .downloads {
     perspective: 1000px;
 }
-.downloads p {
-
-}
 
 .downloads:hover .dropDown {
     transform: translateY(-50%) scale(1, 1);
@@ -7573,9 +7571,15 @@ footer .right {
     border-radius: 30px;
     width: 300px;
     height: 300px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
 }
 .wrapper .card .name {
     margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.wrapper .card .post {
+    font-size: 20px;
 }
 .wrapper .top {
     display: flex;
@@ -8072,6 +8076,9 @@ body.pink,
     .header__nav.pink {
         background: transparent;
     }
+    .header__nav-wrap {
+        padding-top: 0
+    }
 }
 
 .soon {
@@ -8079,6 +8086,60 @@ body.pink,
     font-size: 12px;
     color: red;
 }
+@media (max-width: 600px) {
+    .sliding-container:hover > .owl-wrap {
+        width: 210px;
+    }
+    .wrapper .bottom {
+        margin: 0;
+    }
+}
 
-#0d64a4 = blue
-#a26eff = pink
+@media (max-width: 360px) {
+    .animation-hero__icon {
+        zoom: 0.8;
+    }
+    .animation-hero__text {
+        margin-top: 62px;
+    }
+    .animation-hero__ttl {
+        font-size: 33px;
+    }
+    .header__nav-wrap {
+        padding-top:0
+    }
+    .header-contacts {
+        display: none;
+    }
+    .dropDown {
+        width: 130%;
+    }
+    .header__nav-wrap.active {
+        height: 120vh;
+    }
+    .header__nav-wrap:before {
+        background-size: 120vh;
+    }
+    .wrapper .top {
+        zoom: 0.8;
+    }
+    .wrapper .bottom {
+        zoom: 0.6;
+        margin: 0;
+    }
+    .social-links {
+        padding: 0;
+    }
+    footer .right {
+        width: 100%;
+    }
+    footer .left {
+        padding: 0;
+    }
+}
+
+.wrapper .card .image.direct,
+.wrapper .card .image.usg {
+    width: 250px;
+    height: 250px;
+}
