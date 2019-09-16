@@ -7576,10 +7576,10 @@ footer .right {
 .wrapper .card .name {
     margin: 10px 0;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 21px;
 }
 .wrapper .card .post {
-    font-size: 20px;
+    font-size: 18px;
 }
 .wrapper .top {
     display: flex;
@@ -8094,6 +8094,9 @@ body.pink,
         margin: 0;
     }
 }
+.btm > .card:first-child {
+    margin-right: 80px;
+}
 
 @media (max-width: 360px) {
     .animation-hero__icon {
@@ -8136,10 +8139,21 @@ body.pink,
     footer .left {
         padding: 0;
     }
+    .wrapper {
+        padding: 5px;
+        width: 100vw;
+    }
+    .btm > .card:first-child {
+        margin-right: 10px;
+    }
+
 }
 
-.wrapper .card .image.direct,
-.wrapper .card .image.usg {
+.wrapper .card .image.direct {
     width: 250px;
     height: 250px;
+}
+.wrapper .card .image.usg {
+    width: 225px;
+    height: 225px;
 }
