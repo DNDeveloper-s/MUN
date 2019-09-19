@@ -7565,7 +7565,13 @@ footer .right {
     width: 200px;
     height: 200px;
     border-radius: 200px;
+    border: 3px solid #f1f1f1;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);
     overflow: hidden;
+}
+.card .image.logo {
+    border: none;
+    box-shadow: none;
 }
 .wrapper .card .image.rect {
     border-radius: 30px;
@@ -7716,60 +7722,6 @@ footer .right {
     margin: 0 auto;
 }
 
-@media (max-width: 1366px) {
-    .header {
-        max-height: 80px;
-    }
-    .header__left {
-        zoom: 0.4;
-    }
-    .header__nav-wrap {
-        justify-content: space-around;
-        height: 80px;
-    }
-    .mainone {
-        font-size: 20px;
-    }
-    .new {
-        margin: 40px;
-    }
-    .header__nav-inner {
-        justify-content: center;
-        zoom: 0.7;
-    }
-    .animation-hero__icon {
-        zoom: 0.8;
-    }
-    .hero-02-holder {
-        top: 80px;
-    }
-    .header__nav {
-        top: 115px;
-        background-size: 153vw;
-    }
-    .services__ttl {
-        padding-left: 100px;
-    }
-    .services__container {
-        justify-content: center;
-    }
-    #our-work,
-    footer,
-    .social-links{
-        zoom: 0.8;
-    }
-    .social-block {
-        padding: 0;
-        flex-direction: column;
-        align-items: center;
-    }
-    .wrapper h2 {
-        margin-top: 0;
-    }
-    .wrapper .bottom {
-        zoom: 0.8;
-    }
-}
 
 .rest .left {
     zoom: 1.3;
@@ -7833,12 +7785,12 @@ footer .right {
 
 @media (max-width: 768px) {
     .header__left {
-        zoom: 1;
-        height: 80px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+          zoom: 1;
+          height: 80px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
     .header__left .logo {
         zoom: 0.1;
         margin-top: -572px;
@@ -8064,7 +8016,7 @@ body.pink,
 .header__nav-wrap.pink:before {
     transition: all 0.27s cubic-bezier(.215, .61, .355, 1) 0s;
     background-image: url('grad-1.png');
-    background-size: 100vw;
+    background-size: 100vw 100vh;
 }
 .header {
     z-index: 1999;
@@ -8082,37 +8034,12 @@ body.pink,
     z-index: 10;
 }
 
-
-@media (max-width: 768px) {
-    body.pink,
-    .header.pink,
-    .header__nav-wrap.pink:before {
-        background-size: 150vh;
-    }
-    .header__nav.pink {
-        background: transparent;
-    }
-    .header__nav-wrap {
-        padding-top: 0
-    }
-    .mob_ttl {
-        display: block;
-    }
-}
-
 .soon {
     margin-left: 5px;
     font-size: 12px;
     color: red;
 }
-@media (max-width: 600px) {
-    .sliding-container:hover > .owl-wrap {
-        width: 210px;
-    }
-    .wrapper .bottom {
-        margin: 0;
-    }
-}
+
 .btm > .card:first-child {
     margin-right: 80px;
 }
@@ -8129,6 +8056,7 @@ body.pink,
 .countdown {
     perspective: 1000px;
     margin-left: 380px;
+    margin-top: 40px;
     font-size: 34px;
     font-family: 'Algerian';
     font-style: italic;
@@ -8192,6 +8120,27 @@ body.pink,
 .card .image.width img {
     width: 100%;
 }
+
+.wrapper.about h3 {
+    margin: 90px 0;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.gallery-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-container .image-item {
+    min-width: 390px;
+    width: calc(100% / 4);
+    margin: 20px;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);
+}
+
 @keyframes rot {
     0%  {
         transform: rotateY(0deg);
@@ -8200,6 +8149,139 @@ body.pink,
     100% {
         transform: rotateY(180deg);
         opacity: 1;
+    }
+}
+
+.wrapIt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1366px) {
+    .header {
+        max-height: 80px;
+    }
+    .header__left {
+        zoom: 0.4;
+    }
+    .header__nav-wrap {
+        justify-content: space-around;
+        height: 80px;
+    }
+    .mainone {
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .new {
+        margin: 40px;
+    }
+    .header__nav-inner {
+        justify-content: center;
+        zoom: 0.7;
+    }
+    .animation-hero__icon {
+        zoom: 0.8;
+    }
+    .hero-02-holder {
+        top: 80px;
+    }
+    .countdown {
+        zoom: 0.3;
+        position: relative;
+        left: 0;
+        margin-top: 50px;
+    }
+    .header__nav {
+        top: 115px;
+        background-size: 153vw;
+    }
+    .services__ttl {
+        padding-left: 100px;
+    }
+    .services__container {
+        justify-content: center;
+    }
+    #our-work,
+    footer,
+    .social-links{
+        zoom: 0.8;
+    }
+    .social-block {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper h2 {
+        margin-top: 0;
+    }
+    .wrapper .bottom {
+        zoom: 0.8;
+    }
+}
+
+@media (max-width: 1220px) {
+    .wrapper.sec {
+        width: 100vw;
+        max-width: 1366px;
+        /*zoom: 0.8;*/
+    }
+    .wrapper .bottom {
+        padding: 0 40px;
+    }
+    .wrapIt {
+        justify-content: flex-end;
+    }
+    .mainone {
+        white-space: normal;
+    }
+}
+
+@media (max-width: 950px) {
+    .wrapper.sec {
+    }
+    .wrapper.sec .bottom {
+        padding: 0 40px;
+        zoom: 0.8;
+    }
+}
+
+@media (max-width: 768px) {
+    body.pink,
+    .header.pink,
+    .header__nav-wrap.pink:before {
+        background-size: 150vh;
+    }
+    .header__nav.pink {
+        background: transparent;
+    }
+    .header__nav-wrap {
+        padding-top: 0
+    }
+    .mob_ttl {
+        display: block;
+    }
+    .wrapper.sec .bottom {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+    }
+    .sliding-container.sec {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .sliding-container.sec::before {
+        border-left: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .sliding-container:hover > .owl-wrap {
+        width: 210px;
+    }
+    .wrapper .bottom {
+        margin: 0;
     }
 }
 
