@@ -8286,6 +8286,9 @@ body.pink,
 }
 
 @media (max-width: 360px) {
+    .header__left {
+        zoom: 1;
+    }
     .animation-hero__icon {
         zoom: 0.8;
     }
