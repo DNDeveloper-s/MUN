@@ -7569,6 +7569,12 @@ footer .right {
     box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);
     overflow: hidden;
 }
+
+.wrapper.advisory .image {
+    border: 3px solid #f1f1f1;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.3);
+}
+
 .card .image.logo {
     border: none;
     box-shadow: none;
@@ -8045,8 +8051,8 @@ body.pink,
 }
 
 .wrapper .card .image.direct {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
 }
 .wrapper .card .image.usg {
     width: 225px;
@@ -8156,6 +8162,10 @@ body.pink,
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.top-head {
+    display: none;
 }
 
 @media (max-width: 1366px) {
@@ -8337,11 +8347,29 @@ body.pink,
     .btm > .card:first-child {
         margin-right: 10px;
     }
+    .wrapIt {
+        flex-direction: column;
+    }
+    .mainone {
+        text-align: center;
+    }
     .countdown {
         margin-left: 0;
+        left: 56%;
     }
     .your-clock {
         transform: translate(-38%, 30%);
         zoom: 0.4;
+    }
+    .inner-head {
+        display: none;
+    }
+    .top-head {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        zoom: 0.28;
+        transform: translate(-50%, -90%);
     }
 }
