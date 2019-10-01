@@ -1,0 +1,19 @@
+{
+  "name": "mun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prosmessi/MUN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prosmessi/MUN/issues"
+  },
+  "homepage": "https://github.com/prosmessi/MUN#readme"
+}
