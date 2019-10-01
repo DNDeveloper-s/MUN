@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ab0909-13b1-483e-991d-80a1d136ab48" name="Default Changelist" comment="Responsive design">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awards.html" beforeDir="false" afterPath="$PROJECT_DIR$/awards.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/executive.html" beforeDir="false" afterPath="$PROJECT_DIR$/executive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,7 @@
       <workItem from="1568959423158" duration="49000" />
       <workItem from="1568970637871" duration="7122000" />
       <workItem from="1569497946028" duration="1299000" />
-      <workItem from="1569925801886" duration="934000" />
+      <workItem from="1569925801886" duration="1050000" />
     </task>
     <task id="LOCAL-00001" summary="Responsive design">
       <created>1568182510856</created>
